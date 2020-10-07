@@ -1,0 +1,249 @@
+﻿body {
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background:maroon;
+    color:whitesmoke;
+    font: 300 28px/32px "times new roman";
+}
+.container,
+.grid {
+    margin: 0 auto;
+    width: 1250px;
+}
+.container {
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+.col-1-3{
+    display: inline-block;
+}
+.grid,
+.col-1-3
+ {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-1-3 {
+    width: 33.33%;
+}
+h1 {
+    font-size: 50px;
+}
+h1,h2,h3, p {
+    margin-bottom: 22px;
+    
+}
+p {
+    line-height: 28px;
+}
+group:before .group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear:;
+}
+.group {
+    clear:;
+    *zoom: 1;
+}
+.logo {
+   /* border-top: 4px solid #648880;*/
+    padding: 40px 0 22px 0;
+    float: left;
+}
+.intro {
+    padding: 62px 90px 86px 80px;
+    text-align:center;
+    color:blue;
+}
+.colo {
+    background: white;
+}
+
+.btn_submit {
+    border: 0;
+    background:#fff;
+    padding: 11px 30px;
+    font-size: 14px;
+}
+    .btn_submit:hover {
+        background:blue;
+    }
+    .row {
+    background:white;
+    min-width: 1250px;
+    padding: 66px 0 44px 0;
+}
+
+.row1 {
+    background:white;
+    /*background:slategrey ;*/
+    min-width: 1250px;
+    padding: 66px 0 44px 0;
+    color:blue;
+}
+form {
+    margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+    font: 300 18px/22px "times new roman";
+}
+.register-group label {
+    color: #648880;
+    font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+.register group input,
+.register group textarea {
+    width: 100%;
+}
+.register-group select {
+    height: 34px;
+    width: 200px;
+}
+.register-group textarea {
+    height: 78px;
+}
+.list {
+    list-style: circle;
+    margin: 0 0 22px 30px;
+    color:royalblue;
+    font-size:20px;
+}
+.news {
+    padding-left: 50px;
+}
+.foot {
+    padding-left:25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.color {
+    color:firebrick;
+}
+.prop {
+    text-align: right;
+}
+.h {
+   font-size:35px;
+}
+.quali {
+    color: red;
+}
+.text {
+    text-align: center;
+    color:red;
+}
+.foot {
+    text-align: center;
+}
+.formcol {
+    color: blue;
+}
+.head {
+    color: red;
+    font-size: 50px;
+    text-align:center;
+}
+.headernav {
+    text-align: right;
+}
+a {
+    color: white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:30px;
+
+}
+    a:hover {
+        color: yellowgreen;
+    }
+@media (max-width:952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width:858px) {
+    pre {
+        color: #ffffff;
+        font-size: 100%;
+        margin-left: 8%;
+        margin-right: 5%;
+        margin-top: 20%;
+        font-family: "Times New Roman";
+    }
+
